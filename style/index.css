@@ -1,1 +1,198 @@
-/* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+  
+
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Libre Franklin', sans-serif;
+}
+.top{
+    display:flex;
+    padding-top:1%;
+}
+.name{
+    width:50%
+
+}
+
+h2{
+    margin-top:2%;
+    font-size:4rem;
+    width:100%;
+    font-family: 'Great Vibes', cursive;
+    letter-spacing:4px;
+    color:#12519e;
+    
+}
+.links{
+    
+    width:100%;
+}
+
+nav{
+    display:flex;
+    width:100%;
+    justify-content:flex-end;
+    align-items:center;
+    margin-top:1%;
+
+}
+.home{
+    padding:1% 0;
+    font-size:2rem;
+    width:20%;
+    text-decoration:none;
+    text-align:center;
+    color:white;
+    background-color:#96cedf;
+}
+.about{
+    padding:1% 0;
+    font-size:2rem;
+    width:20%;
+    text-decoration:none;
+    text-align:center;
+    color:white;
+    background-color:#84aebe;
+}
+.contact{
+    padding:1% 0;
+    font-size:2rem;
+    width:20%;
+    text-decoration:none;
+    text-align:center;
+    color:white;
+    background-color:#54a1cf;
+    
+}
+.projects{
+    padding:1% 0;
+    font-size:2rem;
+    width:20%;
+    text-align:center;
+    text-decoration:none;
+    color:white;
+    background-color:#12519e;
+}
+.me{
+    margin:1% auto;
+    height:40vh;
+    width:75%;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    background-image:url("https://images.unsplash.com/photo-1485988412941-77a35537dae4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+h1{
+    font-size:7rem;
+    color:white;
+    text-shadow:2px 2px black;
+
+
+}
+.myWork{
+    width:15%;
+    font-size:2rem;
+    margin-top:2%;
+    padding:1% 0;
+    border-radius:10px;
+    background-color:tan;
+    color:white;
+    border:1px solid black;
+}
+.mid img{
+    width:100%;
+}
+.mid p{
+    width:100%;
+    font-size:2.5rem;
+    text-align:center;
+}
+.box{
+    width:30%
+}
+.mid{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-evenly;
+}
+footer{
+    padding:2%;
+}
+footer{
+    color:tan;
+}
+
+
+
+.contactMe{
+    width:15%;
+    padding:1% 0;
+    text-align:center;
+    margin:0 auto;
+    border-radius:10px;
+    background-color:tan;
+    color:white;
+    font-size:1.6rem;
+    text-decoration:none;
+    border:1px solid black;
+    
+}
+
