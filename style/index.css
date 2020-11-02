@@ -148,7 +148,7 @@ h1{
 
 }
 .myWork{
-    width:15%;
+    width:20%;
     font-size:2rem;
     margin-top:2%;
     padding:1% 0;
@@ -157,21 +157,43 @@ h1{
     color:white;
     border:1px solid black;
 }
-.mid img{
+.myWork a{
+    color:white;
+    text-shadow:2px 2px black;
+    text-decoration: none;
+    font-size:2rem;
+
+}
+
+
+  
+
+.mid{
     width:100%;
+    display:flex;
+    flex-flow: row wrap;
+    margin-left:2%;
 }
 .mid p{
-    width:100%;
+    width:30%;
     font-size:2.5rem;
-    text-align:center;
+    margin:0 auto;
+    color:black;
+   
 }
 .box{
-    width:30%
+    width:100%;
+    align-items:center;
+    
+    
 }
-.mid{
-    display:flex;
-    flex-flow:row wrap;
-    justify-content:space-evenly;
+.mid .box{
+    margin-right:3%;
+    width:30%;
+    
+   
+    
+   
 }
 footer{
     padding:2%;
@@ -195,4 +217,95 @@ footer{
     border:1px solid black;
     
 }
+@media(max-width:800px){
+    .top{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        width:100%;
+    
+}
+    .links nav a{
+        width:100%;
+        align-items:center;
+        margin:0 auto;
+        font-size:1rem;
 
+}
+    .myWork{
+        width:30%;
+     
+}
+    .mid{
+        width:100%;
+        display:flex;
+        flex-flow:row wrap;
+        margin-left:2%;
+}
+    .mid p{
+        width:45%;
+        font-size:2.5rem;
+        margin:0 auto;
+        color:black;
+}
+    .box{
+        width:100%;
+        text-align:center;
+}
+    .mid .box{
+        margin-right:3%;
+        width:45%;
+}
+}
+@media(max-width:500px){
+
+
+.mid{
+    width:100%;
+    display:flex;
+    flex-flow:column wrap;
+    justify-content:center;
+    
+
+    
+}
+.mid p{
+    width:75%;
+    font-size:2.5rem;
+    margin:0 auto;
+    color:black;
+    text-align:center;
+}
+.box{
+    width:100%;
+    text-align:center;
+    
+   
+}
+.mid .box{
+    margin-right:14%;
+    width:75%;
+}
+
+
+.box{
+    margin:2% auto;
+}
+.myWork{
+    width:60%;
+    font-size:2rem;
+    margin-top:2%;
+    padding:1% 0;
+}
+.contactMe{
+    width:60%;
+    padding:1% 0;
+    text-align:center;
+    margin:0 auto;
+    border-radius:10px;
+    background-color:tan;
+    color:white;
+    font-size:1.6rem;
+    text-decoration:none;
+    border:1px solid black;
+}
